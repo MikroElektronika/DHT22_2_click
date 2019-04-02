@@ -1,0 +1,8 @@
+module Click_DHT22_2_config
+
+include Click_DHT22_2_types
+
+const
+    _DHT222_I2C_CFG as uint32_t[1] = (_I2C_BITRATE_STANDARD_MODE)
+    
+end.
